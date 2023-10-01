@@ -1,15 +1,19 @@
-# Quick start
-Demo:
+# FSL
 
-Running the shell scripts below would plot the Figure2b in our paper.
-```bash
-bash demo.sh
-```
+This is the official PyTorch implementation of our CVPR 2022 paper:
 
+> [**Promoting fast MR imaging pipeline by full-stack AI**](xxx)       
+> Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jinfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang
+> *Submitted to iScience*
+
+## Quick start
+
+### Pre-trained Model and Testing Dataset
 All data and models can be downloaded in [Google-drive](https://drive.google.com/file/d/1fdxsNnbEURpetsH9seP4RRv9nML2y2i1/view?usp=sharing).
 
 It is a `zip file` (~843M) which contain a `demo testing data` and `parameter files of compared models`. 
 
+### File Organization
 Then place the `demo testing data` in:
 
 ```
@@ -36,3 +40,44 @@ place the `parameter files` in:
 │           ├── csmri2__5.pth
 │           └── csmtl__0.05.pth
 ```
+### Training
+
+Please see [runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py](runner/main/runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py) for an example of how to train FSL.
+
+
+### Testing
+
+```
+bash demo.sh
+```
+
+## Acknowledgement
+
+The subsampling learning part is borrowed from **LOUPE** and **SeqMRI**. 
+Part of the network structures are adapted from **MD-Recon-Net**.
+ 
++ LOUPE: [https://github.com/cagladbahadir/LOUPE](https://github.com/cagladbahadir/LOUPE).
++ SeqMRI: [https://github.com/tianweiy/SeqMRI](https://github.com/tianweiy/SeqMRI).
++ MD-Recon-Net: [https://github.com/Deep-Imaging-Group/MD-Recon-Net](https://github.com/Deep-Imaging-Group/MD-Recon-Net).
+
+Thanks a lot for their great works!
+
+<!-- ## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@inproceedings{st++,
+  title={ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation},
+  author={Yang, Lihe and Zhuo, Wei and Qi, Lei and Shi, Yinghuan and Gao, Yang},
+  booktitle={xxx},
+  year={xxx}
+}
+
+@inproceedings{unimatch,
+  title={Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation},
+  author={Yang, Lihe and Qi, Lei and Feng, Litong and Zhang, Wayne and Shi, Yinghuan},
+  booktitle={CVPR},
+  year={2023}
+}
+``` -->
