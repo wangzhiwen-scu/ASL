@@ -62,6 +62,9 @@ Part of the network structures are adapted from **MD-Recon-Net**.
 
 Thanks a lot for their great works!
 
+## contact
+If you have any questions, please feel free to contact Wang Zhiwen {wangzhiwen_scu@163.com}.
+
 <!-- ## Citation
 
 If you find this project useful, please consider citing:
