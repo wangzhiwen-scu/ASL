@@ -53,8 +53,8 @@ bash demo.sh
 
 ## Acknowledgement
 
-The subsampling learning part is borrowed from **LOUPE** and **SeqMRI**. 
-Part of the network structures are adapted from **MD-Recon-Net**.
+Part of the subsampling learning network are adapted from **LOUPE** and **SeqMRI**. 
+Part of the reconstruction network structures are adapted from **MD-Recon-Net**.
  
 + LOUPE: [https://github.com/cagladbahadir/LOUPE](https://github.com/cagladbahadir/LOUPE).
 + SeqMRI: [https://github.com/tianweiy/SeqMRI](https://github.com/tianweiy/SeqMRI).
