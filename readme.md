@@ -6,14 +6,38 @@ This is the official PyTorch implementation of our manuscipt:
 > Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jinfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang        
 > *Submitted to xx*
 
-## Quick start
+## Getting started
 
-### Pre-trained Model and Testing Dataset
+###  1. Clone the repository
+```bash
+git clone https://github.com/wangzhiwen-scu/FSL.git
+cd fsl
+```
+
+
+### 2. Install dependencies
+
+Here's a summary of the key dependencies.
+- python 3.7
+- pytorch 1.7.1
+
+We recommend using [conda](https://docs.conda.io/en/latest/) to install all of the dependencies.
+
+```bash
+conda env create -f environment.yaml
+```
+To activate the environment, run:
+
+```bash
+conda activate fsl
+```
+
+### 3. Pre-trained Model and Testing Dataset
 All data and models can be downloaded in [Google-drive](https://drive.google.com/file/d/1fdxsNnbEURpetsH9seP4RRv9nML2y2i1/view?usp=sharing).
 
 It is a `zip file` (~843M) which contain a `demo testing data` and `parameter files of compared models`. 
 
-### File Organization
+### 4. File Organization
 Then place the `demo testing data` in:
 
 ```
@@ -40,12 +64,12 @@ place the `parameter files` in:
 │           ├── csmri2__5.pth
 │           └── csmtl__0.05.pth
 ```
-### Training
+### 5. Training
 
-Please see [runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py](runner/main/runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py) for an example of how to train FSL.
+Please see [runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py](runner/main/asl_mixed_ablation_seq_mdrec_v2_step3_1_bg_localloss.py) for an example of how to train FSL.
 
 
-### Testing
+### 6. Testing
 
 ```
 bash demo.sh
