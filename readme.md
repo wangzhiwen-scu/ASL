@@ -3,8 +3,8 @@
 This is the official PyTorch implementation of our manuscipt:
 
 > [**Promoting fast MR imaging pipeline by full-stack AI**](xxx)       
-> Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jinfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang        
-> *Submitted to xx*
+> Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jingfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang        
+> *Accepted by iScience*
 
 ## Getting started
 

@@ -30,3 +30,4 @@ model_zoo/*
 *.rar
 *.h5
 datasets/*
+oryx-build-commands.txt
