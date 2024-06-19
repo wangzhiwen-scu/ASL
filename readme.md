@@ -4,7 +4,7 @@ This is the official PyTorch implementation of our manuscipt:
 
 > [**Promoting fast MR imaging pipeline by full-stack AI**](https://www.cell.com/iscience/fulltext/S2589-0042(23)02685-8)       
 > Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jingfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang        
-> *Accepted by iScience*
+> Accepted by *Cell iScience*
 
 ## Getting started
 
