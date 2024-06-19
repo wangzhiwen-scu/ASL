@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of our manuscipt:
 
-> [**Promoting fast MR imaging pipeline by full-stack AI**](xxx)       
+> [**Promoting fast MR imaging pipeline by full-stack AI**](https://www.cell.com/iscience/fulltext/S2589-0042(23)02685-8)       
 > Zhiwen Wang, Bowen Li, Hui Yu, Zhongzhou Zhang, Maosong Ran, Wenjun Xia, Ziyuan Yang, Jingfeng Lu, Hu Chen, Jinfeng Lu, Jiliu Zhou, Hongming Shan, Yi Zhang        
 > *Accepted by iScience*
 
@@ -89,22 +89,18 @@ Thanks a lot for their great works!
 ## contact
 If you have any questions, please feel free to contact Wang Zhiwen {wangzhiwen_scu@163.com}.
 
-<!-- ## Citation
+ ## Citation
 
 If you find this project useful, please consider citing:
 
 ```bibtex
-@inproceedings{st++,
-  title={ST++: Make Self-training Work Better for Semi-supervised Semantic Segmentation},
-  author={Yang, Lihe and Zhuo, Wei and Qi, Lei and Shi, Yinghuan and Gao, Yang},
-  booktitle={xxx},
-  year={xxx}
+@article{wang2024promoting,
+  title={Promoting fast MR imaging pipeline by full-stack AI},
+  author={Wang, Zhiwen and Li, Bowen and Yu, Hui and Zhang, Zhongzhou and Ran, Maosong and Xia, Wenjun and Yang, Ziyuan and Lu, Jingfeng and Chen, Hu and Zhou, Jiliu and others},
+  journal={Iscience},
+  volume={27},
+  number={1},
+  year={2024},
+  publisher={Elsevier}
 }
-
-@inproceedings{unimatch,
-  title={Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation},
-  author={Yang, Lihe and Qi, Lei and Feng, Litong and Zhang, Wayne and Shi, Yinghuan},
-  booktitle={CVPR},
-  year={2023}
-}
-``` -->
+```
